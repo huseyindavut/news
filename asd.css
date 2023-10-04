@@ -1,0 +1,41 @@
+.my_main {
+    background-color: rgb(233, 245, 224);
+}
+
+.wrapper {
+    justify-content:center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 275px);
+}
+
+.minicontent {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20%;
+    border-style:solid;
+    border-width: 3px;
+    background-color: rgb(238, 227, 244);
+}
+
+.div {
+    display: block;
+}
+
+.ingress {
+    font-weight: bolder;
+    color: #542179;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.h1 {
+    list-style-position: outside;
+    color: rgb(255, 0, 212);
+}
