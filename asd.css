@@ -2,11 +2,11 @@
     background-color: rgb(252, 246, 246);
 }
 
-.wrapper {
+.wrap {
     justify-content:center;
 }
 
-.wrapper {
+.wrap {
     display: grid;
     grid-template-columns: repeat(auto-fill, 290px);
   
@@ -27,11 +27,12 @@
     display: block;
 }
 
-.ingress {
+.incom {
     font-weight: bolder;
     color: #542179;
+    font-size: 22px;
 }
-.p {
+p {
     text-align:center;
     display: block;
     margin-block-start: 10px;
@@ -40,6 +41,7 @@
     margin-inline-end: 15px;
 }
 .h1 {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +49,7 @@
     font-size: 60px;  
 }
 .h2 {
-    text-align:justify;
+    
     color: rgb(0, 0, 0);
     display:flex;
     align-items: flex-start;
@@ -58,16 +60,7 @@
 .h1-text {
     text-align: center;
 }
-.prgrpg {
-    margin:120px;
-    font-size: x-large;
-    font-size: x-large;
-    color: rgb(5, 5, 4);
-    display: flex;
-    align-items: center;
-    height:20vh ;
-    text-align:justify;
-}
+
 nav ul {
     list-style: none;
     padding: 0px;
