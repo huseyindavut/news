@@ -1,5 +1,5 @@
 .my_main {
-    background-color: rgb(233, 245, 224);
+    background-color: rgb(252, 246, 246);
 }
 
 .wrapper {
@@ -8,16 +8,19 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 275px);
+    grid-template-columns: repeat(auto-fill, 290px);
+  
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
 }
 
 .minicontent {
-    margin: 20px;
-    padding: 10px;
+    margin: 15px;
+    padding: 15px;
     border-radius: 20%;
     border-style:solid;
-    border-width: 3px;
-    background-color: rgb(238, 227, 244);
+    border-width:1mm;
+    background-color: rgb(213, 246, 248);
 }
 
 .div {
@@ -29,13 +32,58 @@
     color: #542179;
 }
 p {
+    text-align:justify;
     display: block;
-    margin-block-start: 1em;
+    margin-block-start: 10px;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start:auto;
+    margin-inline-end: 15px;
 }
 .h1 {
-    list-style-position: outside;
-    color: rgb(255, 0, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    font-size: 60px;  
+}
+
+.h1-text {
+    text-align: center;
+}
+.prgrpg {
+    margin:120px;
+    font-size: x-large;
+    font-size: x-large;
+    color: rgb(5, 5, 4);
+    display: flex;
+    align-items: center;
+    height:20vh ;
+    text-align:justify;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    display:inline;
+    margin: 0 15px;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+header {
+    font-size: 20px;
+    background-color: rgb(213, 246, 248);
+    color: rgb(14, 3, 3);
+    padding: 10px O;
+    text-align: center;
 }
