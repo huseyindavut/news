@@ -28,12 +28,13 @@
 }
 
 .incom {
+    text-align: center;
     font-weight: bolder;
     color: #542179;
     font-size: 22px;
 }
 p {
-    text-align:center;
+    text-align:left;
     display: block;
     margin-block-start: 10px;
     margin-block-end: 1em;
@@ -49,14 +50,14 @@ p {
     font-size: 60px;  
 }
 .h2 {
-    
+  
     color: rgb(0, 0, 0);
     display:flex;
     align-items: flex-start;
     justify-content: flex;
-    
-    
+     
 }
+
 .h1-text {
     text-align: center;
 }
