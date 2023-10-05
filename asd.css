@@ -67,12 +67,13 @@ nav ul {
     padding: 0px;
     display: flex;
     justify-content: center;
+    color: rgb(180, 3, 3);
 }
 nav ul li {
     display:inline;
     margin: 0 15px;
-    padding: 20px;
-}
+    padding: 20px;s
+    }
 
 nav ul li a {
     color: rgb(0, 0, 0);
